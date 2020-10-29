@@ -9,8 +9,8 @@ default: &default
 development:
   <<: *default
   database: open_flights_development
-  username: my_hrms
-  password: root12345
+  username: 
+  password: 
   host: localhost
   port: 5432
 
