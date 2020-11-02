@@ -44,6 +44,8 @@ const Airline = (props) => {
 		e.preventDefault()
 
 		setReview(Object.assign({}, review, {[e.target.name]: e.target.value}))
+
+		
 	}
 
 	const handleSubmit = (e) => {
